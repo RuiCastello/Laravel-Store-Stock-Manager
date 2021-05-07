@@ -7,10 +7,10 @@ Created in Laravel.
 
 ## Structure
 Models:
-> /app/Department.php
-> /app/Feedstock.php
-> /app/Relation.php
-> /app/Shoe.php
+> /app/Department.php  
+> /app/Feedstock.php  
+> /app/Relation.php  
+> /app/Shoe.php  
 > /app/User.php
 <br />
 
@@ -43,19 +43,19 @@ Migrations:
 <br />
 
 Web templates (views)
-> /resources/views/
-> /resources/views/feedstock
-> /resources/views/layouts
+> /resources/views/  
+> /resources/views/feedstock  
+> /resources/views/layouts  
 > /resources/views/shoes
 <br />
 
 API Routes:  
-- /shoes (resource)
-- /feedstocks (resource)
-- /users (resource)
-- /login (POST only)
-- /logout (POST only)
-- /me (POST only)
+- /shoes (resource)  
+- /feedstocks (resource)  
+- /users (resource)  
+- /login (POST only)  
+- /logout (POST only)  
+- /me (POST only)  
 <br />
 
 WEB Routes:
