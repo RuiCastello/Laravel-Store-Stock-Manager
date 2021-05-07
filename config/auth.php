@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',  //default é web , se estivessemos a fazer apenas um api, podia-se mudar aqui para api, mas se quisermos ter web e api a funcionar, o melhor é deixar aqui em web, e nos controllers do api, sempre que se charmar o auth deve-se designar sempre que o guard é api, ou seja, todas as calls devem começar com Auth::guard('api)->tralalala()
+        'guard' => 'web',  //default é web , se estivessemos a fazer apenas um api, podia-se mudar aqui para api, mas se quisermos ter web e api a funcionar, o melhor é deixar aqui em web, e nos controllers do api, sempre que se chamar o auth deve-se designar sempre que o guard é api, ou seja, todas as calls devem começar com Auth::guard('api)->tralalala()
         'passwords' => 'users',
     ],
 

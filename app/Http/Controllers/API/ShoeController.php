@@ -29,7 +29,7 @@ class ShoeController extends Controller
 
         $data  = [ 'data' => $listShoes ];
 
-        //todos estas formas de fazer return parecem ter o mesmo resultado, devolvem a coleção de objectos já em json. Magia laravel?
+        // todas estas formas de fazer return parecem ter o mesmo resultado, devolvem a coleção de objectos já em json. Magia laravel?
         // return response($listShoes);
         // return $listShoes;
         // return response()->json($listShoes) ;

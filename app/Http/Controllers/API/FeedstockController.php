@@ -69,7 +69,7 @@ class FeedstockController extends Controller
             );
         };
 
-        // firstOrCreate() dá imenso jeito, mas tem um senão, como primeiro faz uma query para ver se já existe um record, essa query pode dar erro quando se usa um mass assignment, pois o utilizador pode acrescentar campos que não existem na DB. Enquanto que no create() isso já não dá erro, porque o mass assignment é limitado pela variável $fillable no model, que limite as colunas que serão atualizadas e portanto previne tentativas maliciosas de alterar uma query por parte dos users.
+        // firstOrCreate() dá imenso jeito, mas tem um senão, como primeiro faz uma query para ver se já existe um record, essa query pode dar erro quando se usa um mass assignment, pois o utilizador pode acrescentar campos que não existem na DB. Enquanto que no create() isso já não dá erro, porque o mass assignment é limitado pela variável $fillable no model, que limita as colunas que serão atualizadas e portanto previne tentativas maliciosas de alterar uma query por parte dos users.
         // $newFeedstock = Feedstock::firstOrCreate( $request->all() );
 
         $newFeedstock = Feedstock::create( $request->all() );
