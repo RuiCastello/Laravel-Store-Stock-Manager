@@ -3,6 +3,7 @@ Simple (shoe) store stock manager. Two versions included: REST API and regular w
 
 Created in Laravel.
 <br />
+<br />
 
 ## Structure
 Models:
