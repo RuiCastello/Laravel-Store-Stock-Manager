@@ -1,5 +1,6 @@
 # Laravel-Store-Stock-Manager
-Simple (shoe) store stock manager. Two versions included: REST API and regular website working concurrently.
+Simple (shoe) store stock manager. Two versions included: REST API and regular website working concurrently. 
+
 Created in Laravel.
 <br />
 
