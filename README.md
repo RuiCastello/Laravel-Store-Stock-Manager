@@ -4,11 +4,14 @@ Simple (shoe) store stock manager. Two versions included: REST API and regular w
 Created in Laravel.
 <br />
 
-[DEMO](https://demos.canalfoto.org/store-stock-manager) 
-user: admin@canalfoto.org
-pass: 12345678
+[DEMO](https://demos.canalfoto.org/store-stock-manager)  
 
-<br />
+- Credentials:
+```
+user: admin@canalfoto.org  
+pass: 12345678  
+```
+
 <br />
 
 ## Structure
