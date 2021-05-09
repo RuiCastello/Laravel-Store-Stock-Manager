@@ -8,7 +8,7 @@
   <title>@yield('pageTitle')</title>
 
 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
   <style>
   .error {color: #FF0000;}
   </style>

@@ -18,7 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <style>
         .error {color: #FF0000;}
         </style>
